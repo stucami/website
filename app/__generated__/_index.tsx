@@ -4,7 +4,8 @@
 
       import { Fragment, useState } from "react";
       import { renderText, useResource, useVariableState } from "@webstudio-is/react-sdk/runtime";
-      
+      import { Body as Body } from "@webstudio-is/sdk-components-react-router";
+
 
       export const projectId = "43a5a94b-0a65-43ef-b7dc-a731ec19fb7f";
 
@@ -37,7 +38,7 @@
           
 
       const Page = (_props: { system: any; }) => {
-return <body
+return <Body
 className={`w-element c17khswv`}>
 <h1
 className={`w-element ccv5pob c1dms4pl c3uus3z ca9ufrg c149pe4v c6cuw2 c7zth8p c1v2f1qs c1i0vo57 c1yo7qbz c8lhjjr c1qptfq4 c1o0tg0t c1msjduu c1io0du cbgh3pr ccmgaj0`}>
@@ -47,7 +48,7 @@ className={`w-element ccv5pob c1dms4pl c3uus3z ca9ufrg c149pe4v c6cuw2 c7zth8p c
 {""}
 {"but soon."}
 </h1>
-</body>
+</Body>
 }
 
 

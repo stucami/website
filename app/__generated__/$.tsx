@@ -4,7 +4,8 @@
 
       import { Fragment, useState } from "react";
       import { renderText, useResource, useVariableState } from "@webstudio-is/react-sdk/runtime";
-      import { Link as Link, HtmlEmbed as HtmlEmbed } from "@webstudio-is/sdk-components-react/components";
+      import { Body as Body, Link as Link } from "@webstudio-is/sdk-components-react-router";
+import { HtmlEmbed as HtmlEmbed } from "@webstudio-is/sdk-components-react/components";
 
 
       export const projectId = "43a5a94b-0a65-43ef-b7dc-a731ec19fb7f";
@@ -32,7 +33,7 @@
       
 
       const Page = (_props: { system: any; }) => {
-return <body
+return <Body
 className={`w-element ccv5pob cyt8rhw c1dms4pl cvgpo4f`}>
 <div
 className={`w-element`}>
@@ -70,7 +71,7 @@ className={`w-element`}>
 {"Built with Webstudio"}
 </div>
 </Link>
-</body>
+</Body>
 }
 
 
